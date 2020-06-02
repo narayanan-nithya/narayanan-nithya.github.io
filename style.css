@@ -1,0 +1,74 @@
+/* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
+body {
+  background: #f1f1f1;
+}
+/* Styling the header, giving it a height, a background color, and some top padding */
+h1 {
+  font-size: 35px;
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+  background-color: whitesmoke;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+html, body{
+  height: 100%;
+}
+.navbar-brand {
+  padding: 10px;
+  background-color:rgb(63, 191, 189);
+  margin-left: 100px;
+  color: honeydew;
+}
+.navbar-light .navbar-brand {
+color: white;
+}
+
+/* Giving our navbar some padding and a background color */
+.navbar {
+  padding: 10px;
+  background: rgb(245, 228, 196);
+}
+
+/* Making our navbar li's inline-block elements this makes it so we can have multiple on the same line. Floats could have been used too */
+.navbar li {
+  display: inline-block;
+  padding: 5px;
+  margin-right: 10px;
+  margin-left: 30px;
+  cursor: pointer;
+  background-color:whitesmoke;
+  border-radius: 3px;
+}
+#nav-select {
+  visibility: hidden;
+}
+
+
+/* Giving the .post element margin on 3 sides */
+.col-md-6 {
+  margin-top: 30px;
+  margin-left: 30px;
+  text-align: justify;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.col-md-4 {
+  margin-top: 10px;
+  margin-left: 30px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.col-md-3{
+  margin-top: 50px;
+  margin-left: 80px;
+
+}
+
+
+p{
+  margin-top: 10px;
+  margin-left: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
